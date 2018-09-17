@@ -9,7 +9,6 @@ import { ShareButtonRectangle } from 'react-custom-share';
 import Article from '@react-website-themes/side-blog/components/Article';
 import Author from '@react-website-themes/side-blog/components/Author';
 import Bodytext from '@react-website-themes/side-blog/components/Bodytext';
-import Comments from '@react-website-themes/side-blog/components/Comments';
 import Footer from '@react-website-themes/side-blog/components/Footer';
 import Heading from '@react-website-themes/side-blog/components/Heading';
 import Meta from '@react-website-themes/side-blog/components/Meta';
@@ -98,15 +97,9 @@ const PostTemplate = props => {
               icons={metaIcons}
             />
             <Bodytext html={postHTML} />
-            <Author html={authorHTML} avatar={avatar} name={authorName} />
+            <Author html={authorHTML} />
             <Share shareBlockProps={shareBlockProps} />
             <NextPrev next={next} prev={prev} icons={nextPrevIcons} />
-            <Comments
-              slug={slug}
-              siteUrl={siteUrl}
-              appId={process.env.GATSBY_FACEBOOK_APPID}
-              icons={{ message: MessageIcon }}
-            />
           </Article>
         )}
       </ContextConsumer>
