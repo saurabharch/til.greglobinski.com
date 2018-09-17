@@ -1,6 +1,8 @@
 ---
-name: welcome
-title: Welcome to GatsbyJS Starter Kit
+name: home
+preTitle: Welcome to
+title: Today I Learned
+subTitle: by Greg Lobinski
 ---
 
 It’s a series of starters for Gatsby.js: Minimal, Equipped, Themed, Website, Blog, Classy Docs, Clean Diary and Side Blog.

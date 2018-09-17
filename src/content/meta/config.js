@@ -1,21 +1,21 @@
 const base = {
-  name: 'Gatsby Starter Kit',
-  url: 'https://github.com/greglobinski/gatsby-starter-kit',
+  name: 'Today I Learned',
+  url: 'https://til.greglobinski.com',
 };
 
 const config = {
   /* meta tags */
-  siteTitle: `${base.name} - a series of GatsbyJS starters`,
-  siteTitlePostfix: ` - ${base.name}`,
+  siteTitle: `${base.name} by greg lobinski`,
+  siteTitlePostfix: ` - ${base.name} by greg lobinski`,
   siteDescription: `${
     base.name
-  } is a series starters: Minimal, Equipped, Themed, Website, Blog.`,
+  } is a place when I note down things I learned on a daily basis worth to remember.`,
   siteImage: 'preview.jpg',
   siteLanguage: 'en',
 
   /* site header */
   headerTitle: `${base.name}`,
-  headerSubTitle: 'a series of starters for GatsbyJS',
+  headerSubTitle: 'by greg lobinski',
 
   /* url */
   siteUrl: base.url,
