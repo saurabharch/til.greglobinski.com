@@ -22,7 +22,7 @@ const IndexPage = props => {
     data: {
       home: {
         html: homeHTML,
-        frontmatter: { title },
+        frontmatter: { title, subTitle, preTitle },
       },
       footerLinks: { html: footerLinksHTML },
       copyright: { html: copyrightHTML },
@@ -45,8 +45,14 @@ const IndexPage = props => {
               })
             }
           >
-            <img src={logo} alt={siteTitle} className={logoStyle} />
-            <Heading title={title} home={true} />
+            <Heading special={true}>
+              <img src={logo} alt={`${title} ${subTitle}`} />
+              <h1>
+                <small>{preTitle}</small>
+                {title}
+                <span>{subTitle}</span>
+              </h1>
+            </Heading>
             <Bodytext html={homeHTML} />
           </Article>
         )}
@@ -70,6 +76,8 @@ export const query = graphql`
       html
       frontmatter {
         title
+        preTitle
+        subTitle
       }
     }
     footerLinks: markdownRemark(
