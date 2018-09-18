@@ -6,7 +6,7 @@ tags:
   - git
 ---
 
-### Deleteing a local branch
+### Deleting a local branch
 
 I remove local Git branches pretty often so I remember the commands pretty well.
 
