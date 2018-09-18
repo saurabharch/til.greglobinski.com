@@ -1,5 +1,5 @@
 ---
-title: Change the Git repository's remote origin url
+title: Change a Git repository's remote origin url
 categories:
   - dev
 tags:
