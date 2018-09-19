@@ -34,4 +34,6 @@ To delete a remote branch use the `push` command with the `--delete` flag instea
 git push [remote-name] --delete [branch-name]
 ```
 
-The difference makes I search for this command again and again. But maybe it's like that only because I delete remote branches much less often than the local ones. :confused:
+The different command makes it hard to remember, I search for it again and again. Maybe noting down helps. :smile:
+
+But maybe it's only because I delete remote branches much less often than the local ones. :confused:
