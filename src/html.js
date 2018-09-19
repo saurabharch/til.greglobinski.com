@@ -8,19 +8,6 @@ export default class HTML extends React.Component {
         <head>
           <link
             rel="preload"
-            href="/static/pt-serif-latin-700-52955e273669a326e803b0131e7a3ef1.woff2"
-            as="font"
-            crossOrigin="anonymous"
-          />
-          <link
-            rel="preload"
-            href="/static/pt-serif-latin-400-bf8db531544f899031fefd24e908c6a8.woff2"
-            as="font"
-            crossOrigin="anonymous"
-          />
-
-          <link
-            rel="preload"
             href="/static/open-sans-latin-700-d08c09f2f169f4a6edbcf8b8d1636cb4.woff2"
             as="font"
             crossOrigin="anonymous"
@@ -31,6 +18,19 @@ export default class HTML extends React.Component {
             as="font"
             crossOrigin="anonymous"
           />
+          <link
+            rel="preload"
+            href="/static/open-sans-latin-300-60c866748ff15f5b347fdba64596b1b1.woff2"
+            as="font"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="preload"
+            href="/static/pt-serif-latin-400-bf8db531544f899031fefd24e908c6a8.woff2"
+            as="font"
+            crossOrigin="anonymous"
+          />
+
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta
