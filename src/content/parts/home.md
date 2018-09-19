@@ -11,4 +11,4 @@ It is an experiment. I want to believe that things noted down here will stay in 
 
 You will not find here extensive analytic articles. Rather expect short unsorted notes related to front-end development.
 
-If you want to be in touch and be informed about new news follow me on Twitter » [@greglobinski](https://twitter.com/greglobinski)
+If you want to be in touch and be informed about new notes follow me on Twitter » [@greglobinski](https://twitter.com/greglobinski)
