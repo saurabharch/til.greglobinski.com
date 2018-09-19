@@ -2,7 +2,7 @@
 name: home
 preTitle: Welcome to
 title: Today I Learned
-subTitle: by Greg Lobinski
+subTitle: by greg lobinski
 ---
 
 Hi, I'm Greg, welcome to my TIL notebook. I launched this site, inspired by [@swyx](https://twitter.com/swyx/status/1009174159690264579), to note down some of the small pieces of knowledge I learn on a daily basis.
