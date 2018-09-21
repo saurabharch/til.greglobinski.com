@@ -1,5 +1,5 @@
 ---
-title: A css @keyframes list without initial values is valid
+title: A CSS @keyframes list without initial values is valid
 categories:
   - code
 tags:
