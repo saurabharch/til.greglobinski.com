@@ -3,6 +3,7 @@ title: A CSS @keyframes list without initial values is valid
 categories:
   - code
   - animation
+  - UI
 tags:
   - css
 ---

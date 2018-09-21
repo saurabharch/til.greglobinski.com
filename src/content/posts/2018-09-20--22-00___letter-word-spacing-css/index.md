@@ -3,6 +3,7 @@ title: Letter and word spacing in CSS
 categories:
   - code
   - typography
+  - UI
 tags:
   - css
 ---
