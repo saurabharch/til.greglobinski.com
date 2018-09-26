@@ -26,4 +26,4 @@ categories:
 ---
 ```
 
-I had been using the first one, but the second is much more convenient.
+I had been using the first one, but the second is much more convenient. More about **YAML** syntax on [Front-end web development with Greg](https://dev.greglobinski.com/)
