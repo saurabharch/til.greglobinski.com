@@ -4,7 +4,7 @@ categories:
   - code
   - UI
 tags:
-  - css
+  - CSS
 ---
 
 In most cases I use CSS pseudo-elements to tweek look of UI elements. So I use empty string as a value of the `content` property. Like in the code below.

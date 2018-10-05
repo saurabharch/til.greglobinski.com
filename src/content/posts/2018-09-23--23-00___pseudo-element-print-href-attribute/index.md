@@ -3,7 +3,7 @@ title: Use a pseudo-element to print out a link's href attribute
 categories:
   - code
 tags:
-  - css
+  - CSS
 ---
 
 Inline hyperlinks are integral elements of texts published on web pages.

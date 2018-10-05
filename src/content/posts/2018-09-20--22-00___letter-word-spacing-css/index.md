@@ -5,7 +5,7 @@ categories:
   - typography
   - UI
 tags:
-  - css
+  - CSS
 ---
 
 I'm using `letter-spacing` on a daily basis, but I've never used `word-spacing`, I think so, I'm not 100% sure about that. :)

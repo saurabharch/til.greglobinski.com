@@ -5,7 +5,7 @@ categories:
   - animation
   - UI
 tags:
-  - css
+  - CSS
 ---
 
 Till now when I defined a `@keyframes` list for CSS animation I always defined the **starting** and **ending** steps even if they only repeat the initial values of the animated element.
