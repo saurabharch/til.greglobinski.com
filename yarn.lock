@@ -2419,10 +2419,6 @@ camelcase@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-2.1.1.tgz#7c1d16d679a1bbe59ca02cacecfb011e201f5a1f"
 
-camelcase@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-3.0.0.tgz#32fc4b9fcdaf845fcdf7e73bb97cac2261f0ab0a"
-
 camelcase@^4.0.0, camelcase@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
@@ -2479,6 +2475,11 @@ caw@^2.0.0:
 ccount@^1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/ccount/-/ccount-1.0.3.tgz#f1cec43f332e2ea5a569fd46f9f5bde4e6102aff"
+
+ccount@^1.0.3:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/ccount/-/ccount-1.1.0.tgz#246687debb6014735131be8abab2d93898f8d043"
+  integrity sha512-vlNK021QdI7PNeiUh/lKkC/mNHHfV0m/Ad5JoI0TYtlBnJAslM/JIkm/tGC88bkLIwO6OQ5uV6ztS6kVAtCDlg==
 
 chalk@1.1.3, chalk@^1.0.0, chalk@^1.1.1, chalk@^1.1.3:
   version "1.1.3"
@@ -3472,7 +3473,7 @@ default-require-extensions@^1.0.0:
   dependencies:
     strip-bom "^2.0.0"
 
-define-properties@^1.1.1, define-properties@^1.1.2:
+define-properties@^1.1.2:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/define-properties/-/define-properties-1.1.3.tgz#cf88da6cbee26fe6db7094f61d870cbd84cee9f1"
   dependencies:
@@ -5197,14 +5198,15 @@ gatsby-source-filesystem@2.0.1:
     valid-url "^1.0.9"
     xstate "^3.1.0"
 
-gatsby-transformer-remark@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.1.1.tgz#7f6a26a87ba797664a70630b1d3a93d7814ce565"
+gatsby-transformer-remark@2.1.8:
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.1.8.tgz#6f34d85174bb5c35e3e987f4a008e444c6c37646"
+  integrity sha512-gN0JjcmJ6eeZojionP90b2smdDVuJu8zw74KBFwaXnLSEQE7F5ONkAUmSGdo0WFZXifjAoddI6ABXBTtPW52WA==
   dependencies:
     "@babel/runtime" "^7.0.0"
     bluebird "^3.5.0"
     gray-matter "^4.0.0"
-    hast-util-raw "^2.0.2"
+    hast-util-raw "^4.0.0"
     hast-util-to-html "^3.0.0"
     lodash "^4.17.10"
     mdast-util-to-hast "^3.0.0"
@@ -5884,45 +5886,50 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
-hast-to-hyperscript@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/hast-to-hyperscript/-/hast-to-hyperscript-3.1.0.tgz#58ef4af5344f4da22f0622e072a8d5fa062693d3"
+hast-to-hyperscript@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/hast-to-hyperscript/-/hast-to-hyperscript-5.0.0.tgz#5106cbba78edb7c95e2e8a49079371eb196c1ced"
+  integrity sha512-DLl3eYTz8uwwzEubDUdCChsR5t5b2ne+yvHrA2h58Suq/JnN3+Gsb9Tc4iZoCCsykmFUc6UUpwxTmQXs0akSeg==
   dependencies:
     comma-separated-tokens "^1.0.0"
-    is-nan "^1.2.1"
-    kebab-case "^1.0.0"
-    property-information "^3.0.0"
+    property-information "^4.0.0"
     space-separated-tokens "^1.0.0"
-    trim "0.0.1"
+    style-to-object "^0.2.1"
     unist-util-is "^2.0.0"
+    web-namespaces "^1.1.2"
 
-hast-util-from-parse5@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/hast-util-from-parse5/-/hast-util-from-parse5-2.1.0.tgz#f6123d83d3689630b097e13e430d16d9d1bd8884"
+hast-util-from-parse5@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/hast-util-from-parse5/-/hast-util-from-parse5-4.0.2.tgz#b7164a7ffc88da4f751dc7c2f801ff8d7c143bab"
+  integrity sha512-I6dtjsGtDqz4fmGSiFClFyiXdKhj5bPceS6intta7k/VDuiKz9P61C6hO6WMiNNmEm1b/EtBH8f+juvz4o0uwQ==
   dependencies:
-    camelcase "^3.0.0"
-    hastscript "^3.0.0"
-    property-information "^3.1.0"
-    vfile-location "^2.0.0"
+    ccount "^1.0.3"
+    hastscript "^4.0.0"
+    property-information "^4.0.0"
+    web-namespaces "^1.1.2"
+    xtend "^4.0.1"
 
 hast-util-is-element@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hast-util-is-element/-/hast-util-is-element-1.0.1.tgz#c76e8aafbdb6e5c83265bf50324e2f2e024eb12a"
 
-hast-util-parse-selector@^2.0.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/hast-util-parse-selector/-/hast-util-parse-selector-2.2.0.tgz#2175f18cdd697308fc3431d5c29a9e48dfa4817a"
+hast-util-parse-selector@^2.2.0:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/hast-util-parse-selector/-/hast-util-parse-selector-2.2.5.tgz#d57c23f4da16ae3c63b3b6ca4616683313499c3a"
+  integrity sha512-7j6mrk/qqkSehsM92wQjdIgWM2/BW61u/53G6xmC8i1OmEdKLHbk419QKQUjz6LglWsfqoiHmyMRkP1BGjecNQ==
 
-hast-util-raw@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/hast-util-raw/-/hast-util-raw-2.0.2.tgz#20674cfb45428213917a54ec929e6774df0642d8"
+hast-util-raw@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/hast-util-raw/-/hast-util-raw-4.0.0.tgz#2dc10c9facd9b810ea6ac51df251e6f87c2ed5b5"
+  integrity sha512-5xYHyEJMCf8lX/NT4iA5z6N43yoFsrJqXJ5GWwAbLn815URbIz+UNNFEgid33F9paZuDlqVKvB+K3Aqu5+DdSw==
   dependencies:
-    hast-util-from-parse5 "^2.0.0"
-    hast-util-to-parse5 "^2.0.0"
+    hast-util-from-parse5 "^4.0.2"
+    hast-util-to-parse5 "^4.0.1"
     html-void-elements "^1.0.1"
-    parse5 "^3.0.3"
+    parse5 "^5.0.0"
     unist-util-position "^3.0.0"
     web-namespaces "^1.0.0"
+    xtend "^4.0.1"
     zwitch "^1.0.0"
 
 hast-util-to-html@^3.0.0:
@@ -5941,12 +5948,13 @@ hast-util-to-html@^3.0.0:
     unist-util-is "^2.0.0"
     xtend "^4.0.1"
 
-hast-util-to-parse5@^2.0.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/hast-util-to-parse5/-/hast-util-to-parse5-2.2.0.tgz#48c8f7f783020c04c3625db06109d02017033cbc"
+hast-util-to-parse5@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/hast-util-to-parse5/-/hast-util-to-parse5-4.0.1.tgz#e52534b4bf40dc4e7d0428fcaf6d32bc75c62ee5"
+  integrity sha512-U/61W+fsNfBpCyJBB5Pt3l5ypIfgXqEyW9pyrtxF7XrqDJHzcFrYpnC94d0JDYjvobLpYCzcU9srhMRPEO1YXw==
   dependencies:
-    hast-to-hyperscript "^3.0.0"
-    mapz "^1.0.0"
+    hast-to-hyperscript "^5.0.0"
+    property-information "^4.0.0"
     web-namespaces "^1.0.0"
     xtend "^4.0.1"
     zwitch "^1.0.0"
@@ -5955,14 +5963,14 @@ hast-util-whitespace@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hast-util-whitespace/-/hast-util-whitespace-1.0.1.tgz#d67da2c87637b1ce1d85dd15b270ba057930149a"
 
-hastscript@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/hastscript/-/hastscript-3.1.0.tgz#66628ba6d7f1ad07d9277dd09028aba7f4934599"
+hastscript@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/hastscript/-/hastscript-4.1.0.tgz#ea5593fa6f6709101fc790ced818393ddaa045ce"
+  integrity sha512-bOTn9hEfzewvHyXdbYGKqOr/LOz+2zYhKbC17U2YAjd16mnjqB1BQ0nooM/RdMy/htVyli0NAznXiBtwDi1cmQ==
   dependencies:
-    camelcase "^3.0.0"
     comma-separated-tokens "^1.0.0"
-    hast-util-parse-selector "^2.0.0"
-    property-information "^3.0.0"
+    hast-util-parse-selector "^2.2.0"
+    property-information "^4.0.0"
     space-separated-tokens "^1.0.0"
 
 hex-color-regex@^1.1.0:
@@ -6275,6 +6283,11 @@ ini@^1.3.4, ini@~1.3.0:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
 
+inline-style-parser@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/inline-style-parser/-/inline-style-parser-0.1.1.tgz#ec8a3b429274e9c0a1f1c4ffa9453a7fef72cea1"
+  integrity sha512-7NXolsK4CAS5+xvdj5OMMbI962hU/wvwoxk+LWR9Ek9bVtyuuYScDN6eS0rUm6TxApFpw7CX1o4uJzcd4AyD3Q==
+
 inquirer@3.3.0, inquirer@^3.0.1, inquirer@^3.0.6:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-3.3.0.tgz#9dd2f2ad765dcab1ff0443b491442a20ba227dc9"
@@ -6580,12 +6593,6 @@ is-my-json-valid@^2.16.0:
     is-my-ip-valid "^1.0.0"
     jsonpointer "^4.0.0"
     xtend "^4.0.0"
-
-is-nan@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/is-nan/-/is-nan-1.2.1.tgz#9faf65b6fb6db24b7f5c0628475ea71f988401e2"
-  dependencies:
-    define-properties "^1.1.1"
 
 is-natural-number@^2.0.0:
   version "2.1.1"
@@ -7779,12 +7786,6 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-mapz@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/mapz/-/mapz-1.0.2.tgz#f6af94c425db0874ac2c4e67a76f5df1724b1322"
-  dependencies:
-    x-is-array "^0.1.0"
-
 markdown-escapes@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/markdown-escapes/-/markdown-escapes-1.0.2.tgz#e639cbde7b99c841c0bacc8a07982873b46d2122"
@@ -8851,11 +8852,16 @@ parse5@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
 
-parse5@^3.0.1, parse5@^3.0.3:
+parse5@^3.0.1:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-3.0.3.tgz#042f792ffdd36851551cf4e9e066b3874ab45b5c"
   dependencies:
     "@types/node" "*"
+
+parse5@^5.0.0:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/parse5/-/parse5-5.1.1.tgz#f68e4e5ba1852ac2cadc00f4555fff6c2abb6178"
+  integrity sha512-ugq4DFI0Ptb+WWjAdOK16+u/nHfiIrcE+sh8kZMaM0WllQKLI9rOUq6c2b7cwPkXdzfQESqvoqK6ug7U/Yyzug==
 
 parseqs@0.0.5:
   version "0.0.5"
@@ -9478,9 +9484,16 @@ prop-types@^15.5.4, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
-property-information@^3.0.0, property-information@^3.1.0:
+property-information@^3.1.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/property-information/-/property-information-3.2.0.tgz#fd1483c8fbac61808f5fe359e7693a1f48a58331"
+
+property-information@^4.0.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/property-information/-/property-information-4.2.0.tgz#f0e66e07cbd6fed31d96844d958d153ad3eb486e"
+  integrity sha512-TlgDPagHh+eBKOnH2VYvk8qbwsCG/TAJdmTL7f1PROUcSO8qt/KSmShEQ/OKvock8X9tFjtqjCScyOkkkvIKVQ==
+  dependencies:
+    xtend "^4.0.1"
 
 proto-list@~1.2.1:
   version "1.2.4"
@@ -11143,6 +11156,13 @@ style-loader@^0.21.0:
     loader-utils "^1.1.0"
     schema-utils "^0.4.5"
 
+style-to-object@^0.2.1:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/style-to-object/-/style-to-object-0.2.3.tgz#afcf42bc03846b1e311880c55632a26ad2780bcb"
+  integrity sha512-1d/k4EY2N7jVLOqf2j04dTc37TPOv/hHxZmvpg8Pdh8UYydxeu/C1W1U4vD8alzf5V2Gt7rLsmkr4dxAlDm9ng==
+  dependencies:
+    inline-style-parser "0.1.1"
+
 stylehacks@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/stylehacks/-/stylehacks-4.0.0.tgz#64b323951c4a24e5fc7b2ec06c137bf32d155e8a"
@@ -12113,6 +12133,11 @@ web-namespaces@^1.0.0:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/web-namespaces/-/web-namespaces-1.1.2.tgz#c8dc267ab639505276bae19e129dbd6ae72b22b4"
 
+web-namespaces@^1.1.2:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/web-namespaces/-/web-namespaces-1.1.4.tgz#bc98a3de60dadd7faefc403d1076d529f5e030ec"
+  integrity sha512-wYxSGajtmoP4WxfejAPIr4l0fVh+jeMXZb08wNc0tMg6xsfZXj3cECqIK0G7ZAqUq0PP8WlMDtaOGVBTAWztNw==
+
 webidl-conversions@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
@@ -12368,10 +12393,6 @@ ws@~3.3.1:
     async-limiter "~1.0.0"
     safe-buffer "~5.1.0"
     ultron "~1.1.0"
-
-x-is-array@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/x-is-array/-/x-is-array-0.1.0.tgz#de520171d47b3f416f5587d629b89d26b12dc29d"
 
 x-is-string@^0.1.0:
   version "0.1.0"
